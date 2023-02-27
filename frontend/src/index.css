@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(../public/assets/fonts/static/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: FontAwesome;
+  src: url(../public/assets/fonts/FontAwesome.otf);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+input,
+textarea {
+  font-family: OpenSans;
+}
+
+.App {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
